@@ -77,7 +77,8 @@ pre {
 #footer {
   text-align: center;
   font-size: 12px;
-  margin-top: 160px;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .minor {
