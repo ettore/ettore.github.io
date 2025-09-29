@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+Â<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -7,7 +7,7 @@
 <meta name="description" content="I am a software engineer. I code for fun and for money."/>
 <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"/>
-<meta name="viewport" content="width=device-width; initial-scale=0.6; maximum-scale=1.0;"/>
+<meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=1.0"/>
 <link rel="apple-touch-icon" href="iphone-site-icon-n.png"/>
 </head>
 
@@ -26,16 +26,15 @@
 <h2>Stuff I built / helped building</h2>
 <dl>
 	<dt class="drama">NYPL SimplyE / Open eBooks (2020-2025)</dt>
-	<dd>This is the first project where I've been working full time on 2 open source iOS apps. Since the (rather old) code bases were roughly the same, I merged them into <a href="https://github.com/NYPL-Simplified/Simplified-iOS">one single repo</a>, managing the differences via separate Xcode targets. I wrote scripts to automate the build process and implemented a CI/CD pipeline with GitHub actions. We invested into detailed error reporting, managing to reach a 99% crash-free rate. I also worked on a hybrid project that used Capacitor for its web-based core in conjunction with a native SwiftUI plugin. The whole system was very modular and could be customized for different apps.<br/> App Store pages: [<a href="https://apps.apple.com/us/app/simplye/id1046583900">SimplyE</a>] [<a href="https://apps.apple.com/us/app/open-ebooks/id1033669250">Open eBooks</a>]</dd>
-
+	<dd>This is the first project where I've been working full time on two open source iOS apps. Since the (rather old) code bases were roughly the same, I merged them into <a href="https://github.com/NYPL-Simplified/Simplified-iOS">one single repo</a>, managing the differences via separate Xcode targets. I wrote scripts to automate the build process and implemented a CI/CD pipeline with GitHub actions. We invested into detailed error reporting, managing to reach a 99% crash-free rate. I also worked on a hybrid project that used Capacitor for its web-based core in conjunction with a native SwiftUI plugin. The whole system was modular and could be customized for different apps.<br/> App Store pages: [<a href="https://apps.apple.com/us/app/simplye/id1046583900">SimplyE</a>] [<a href="https://apps.apple.com/us/app/open-ebooks/id1033669250">Open eBooks</a>]</dd>
 	<dt class="drama">PIX System iOS + tvOS apps (2016-2020)</dt>
-	<dd>These apps are used by Hollywood directors, actors and executives, many of which are popular household names that created many films I love. To deliver solid professional products, I focused on establishing processes for the team to move fast in the long term while still keeping code quality high: efficient workflows for git work and app releases; investment in CI/CD, unit testing, refactoring, code readability and documentation; thorough code reviews. Since we were maintaining multiple apps, I split the code base of the main app into reusable Swift/ObjC frameworks. Mentoring played a much bigger role than in previous positions, and it was rewarding to see younger engineers grow.<br/>[<a href="https://apps.apple.com/us/app/pix-system/id438296952">App Store page</a>]</dd>
+	<dd>These apps are used by Hollywood directors, actors and executives, many of which are popular household names that created many films I love. To deliver solid professional products, I focused on establishing processes for the team to move fast in the long term while still keeping code quality high: efficient git workflows for day-to-day work as well as app releases; investment in CI/CD, unit testing, refactoring, code readability and documentation; thorough code reviews. Since we were maintaining multiple apps, I split the code base of the main app into reusable Swift/ObjC frameworks. Mentoring played a much bigger role than in previous positions, and it was rewarding to see younger engineers grow.<br/>[<a href="https://apps.apple.com/us/app/pix-system/id438296952">App Store page</a>]</dd>
 
   <dt class="drama">Goodreads iOS app (2010-2015)</dt>
 	<dd>I was the 1st iOS hire and took over the app that was built by contractors. I helped develop new navigation (twice!), new book page, barcode scanner, on-device caching, Facebook onboarding, localization and more. I directed my attention to critical issues such as memory management and performance, helping the strong growth the company was experiencing on mobile platforms, leading to the acquisition by Amazon in 2013. When I left in 2015 the app was 99% built natively in Objective-C. I'm particularly proud of this work because (1) I got to work for a company that was helping readers, (2) I was able to do some open source contributions, and (3) I worked with an exceptional team and learned a ton of stuff.<br/>[<a href="http://itunes.apple.com/us/app/goodreads/id355833469?mt=8">App Store page</a>]</dd>
 
   <dt class="drama">Other Open Source Contributions (2005-2020)</dt>
-	<dd>I have to say, the most rewarding experience I've ever had while developing software was to contribute to open source / free software projects. Here's a few projects I collaborated to:
+	<dd>The most rewarding experience I've ever had while developing software was to contribute to open source / free software projects. Here's a few projects I collaborated to:
     <ul>
       <li><strong>Blender</strong> (3D content creation suite; 2007-08): I added support (C/C++) for 3Dconnexion / Logitech's N degrees of freedom devices. This shipped in <a href="https://archive.blender.org/wiki/index.php/Template:Release_Notes/2.46/Contributors/">v2.46</a> with some bugfixes in <a href="https://archive.blender.org/wiki/index.php/Dev:Ref/Release_Notes/2.47/">2.47</a>. Here's some of my patches <a href="http://www.mail-archive.com/bf-blender-cvs@blender.org/msg01179.html">(1)</a> <a href="http://www.mail-archive.com/bf-blender-cvs@blender.org/msg01025.html">(2)</a> and some community posts <a href="https://forum.3dconnexion.com/viewtopic.php?t=1497">(1)</a> <a href="https://web.archive.org/web/20210127205930/https://www.blender.org/forum/viewtopic.php?t=12230">(2)</a>.
       </li>
@@ -49,35 +48,67 @@
   </dd>
 
   <dt class="drama">ChessNote (2008-2018)</dt>
-	<dd>This was a correspondence chess game that I created for the iPhone. Built with Objective-C, Erlang, OpenBSD. This is the first iOS app I ever worked on, cutting my teeth on i<em>Phone</em>OS 3 and supporting it till iOS 9. It was also an opportunity to learn a functional programming language (very fascinating topic) and server maintenance / configuration. I killed it in 2018 because I was not able to give it the support it deserved anymore.</dd>
+	<dd>This was a correspondence chess game that I created for the iPhone. Built with Objective-C, Erlang, OpenBSD. This is the first iOS app I ever worked on, cutting my teeth on i<em>Phone</em>OS 3 and supporting it till iOS 9. It was also an opportunity to learn a functional programming language (very fascinating topic) and server maintenance / configuration. I shut it down in 2018 because I was not able to give it the support it deserved anymore.</dd>
 
   <dt class="drama">Other</dt>
-	<dd>My <a href="https://github.com/ettore">GitHub</a> also hosts some old and no longer maintained stuff. When I look at this stuff today it is <em>not</em> something I'm particularly proud of anymore!</dd>
+	<dd>My <a href="https://github.com/ettore">GitHub</a> hosts some old and no longer maintained stuff. When I look at this stuff today it's not something I'm particularly proud of anymore!</dd>
 </dl>
 
 <h2>Personal Interests</h2>
-<p>Music has always been one of my biggest passions: I enjoy playing keyboards and occasionally drums, and listening to all sorts of music, from metal and darkwave to Motown and classical music. Growing plants and more in general the outdoors is something I got into somewhat recently. Cryptography is a topic I would like to explore more.</p>
-<p>Why is this important? Well, I tend to join companies whose products and missions are related to some of my interests. While I always give 100%, it will be more rewarding to work on something that is meaningful to me.</p>
+<p>Music has always been one of my biggest passions: I enjoy playing synthesizers and occasionally drums, and listening to all sorts of music, from metal and darkwave to Motown and classical music. Growing plants and more in general the outdoors is something I got into recently. Cryptography is a topic I would like to explore more. Healthcare and fact-based news are two fields I'd love to improve.</p>
+<p>Why is this important? I tend to join companies whose products and missions are aligned to some of my interests. While I always give 100%, it will be more rewarding to work on something that feels meaningful.</p>
 
 <div id="contact">
 <a name="contact"></a>
 <h2>Get in Touch!</h2>
 <ul>
-<li>Via <a href="mailto:&#101;&#64;&#99;&#117;&#98;&#101;&#108;&#111;&#103;&#105;&#99;&#46;&#111;&#114;&#103;">Email</a></li>
+<li>Via <a id="email-link" href="#" role="button" aria-label="Contact (opens email client)">Email</a></li>
 <li>Via <a href="http://linkedin.com/in/ettore" target="_blank">LinkedIn</a></li>
 <li>Via <a href="https://stackoverflow.com/users/238983/ettore" target="_blank">Stack Overflow</a></li>
 <li>Via <a href="https://angel.co/ettore-pasquini" target="_blank">AngelList</a></li>
 <li>Via <a href="https://www.goodreads.com/ettore">Goodreads</a></li>
 <li>Via <a href="http://twitter.com/abstractwater" target="_blank">Twitter</a> (not a developer account, mostly political stuff)</li>
 </ul>
+
+<script>
+(function(){
+  // Obfuscated array for: ettorepasquini@icloud.com
+  // each number = charCode ^ key
+  const encoded = [104,121,121,98,127,104,125,108,126,124,120,100,99,100,77,100,110,97,98,120,105,35,110,98,96];
+  const key = 13;
+
+  function decode(arr, k){
+    return arr.map(n => String.fromCharCode(n ^ k)).join('');
+  }
+
+  const a = document.getElementById('email-link');
+
+  // On click: decode and turn into a mailto link (and open the mail client)
+  a.addEventListener('click', function onClick(e){
+    e.preventDefault();                 // prevent immediate navigation
+    const email = decode(encoded, key);
+    // set href and text (so it's visible / copyable)
+    a.href = 'mailto:' + email;
+    a.textContent = email;
+    a.setAttribute('aria-label', 'Send email to ' + email);
+    // optionally actually open mail client:
+    window.location.href = a.href;
+    // remove the click listener (so we don't decode repeatedly)
+    a.removeEventListener('click', onClick);
+  }, { once: true }); // once:true ensures handler auto-removes after first run
+})();
+</script>
+<noscript>Please enable JavaScript to contact by email.</noscript>
+
 </div>
 
 </div><!--maintext-->
 
 <div id="footer">
-<p class="copyright">&copy; 2011-2022 Ettore Pasquini - All rights reserved.</p>
+<p class="copyright">&copy; 2011-2025 Ettore Pasquini - All rights reserved.</p>
 </div>
 
 </div><!--landscape-->
+
 </body>
 </html>
